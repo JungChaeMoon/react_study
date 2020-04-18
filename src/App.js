@@ -6,16 +6,13 @@ import Say from "./Say";
 import EventPractice from "./EventPractice";
 import ValidationSample from "./ValidationSample";
 import ScrollBox from "./ScrollBox";
+import IterationSample from "./IterationSample";
 
 const App = () => {
 
-  const scrollBox = React.createRef();
-
   return(
-      <div>
-        <ScrollBox ref = {scrollBox}/>
-      </div>
-  )
+      <IterationSample/>
+  );
 };
 
 export default App;
