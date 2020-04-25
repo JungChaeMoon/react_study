@@ -11,11 +11,12 @@ import LifeCycleSample from "./LifeCycleSample";
 import ErrorBoundary from "./ErrorBoundary";
 import Info from "./Info";
 import Average from "./Average"
+import SassComponent from "./SassComponent";
 
 
 const App = () => {
     return (
-        <Average />
+        <SassComponent />
     );
 };
 
