@@ -10,11 +10,12 @@ import IterationSample from "./IterationSample";
 import LifeCycleSample from "./LifeCycleSample";
 import ErrorBoundary from "./ErrorBoundary";
 import Info from "./Info";
+import Average from "./Average"
 
 
 const App = () => {
     return (
-        <Info />
+        <Average />
     );
 };
 
